@@ -1,9 +1,11 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 hi
     - var n = 0
     .row
-        while n < 7
-            .block= n++
+        while n < 72
+            .block(id='div#{n}')
+            - n++
+        if n % 6 == 0
+            br
