@@ -1,12 +1,12 @@
 extends layout
 block content
   h1 hi
-  .container.col-xs-10
+  .container.col-xs-8
       - var n = 0
       while n < 66
           if n % 6 == 0
             .row
-          .block.col-xs-1(id='div#{n}')
+          .block.col-xs-2(id='div#{n}')
             - n++
 
     //- var n = 0
