@@ -1,11 +1,18 @@
 extends layout
-
 block content
   h1 hi
-    - var n = 0
-    .row
-        while n < 72
-            .block(id='div#{n}')
+  .container.col-xs-10
+      - var n = 0
+      while n < 66
+          if n % 6 == 0
+            .row
+          .block.col-xs-1(id='div#{n}')
             - n++
-        if n % 6 == 0
-            br
+
+    //- var n = 0
+    //.row
+    //    while n < 72
+    //        .block(id='div#{n}')
+    //        - n++
+    //    if n % 6 == 0
+    //        br

@@ -1,6 +1,6 @@
 /* line 3, style.scss */
 body {
-  padding: 50px;
+  padding: 20px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -12,7 +12,6 @@ a {
 /* line 12, style.scss */
 .block {
   border: solid black 2px;
-  width: 133px;
   height: 60px;
   display: inline-block;
 }
